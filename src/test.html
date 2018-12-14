@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+  function lineupStudents(students){
+    var stu=students.split(" ");
+    stu.sort(function(a,b){
+      if(a.length==b.length){
+        return b.localeCompare(a);
+      }else{
+        return b.length-a.length;
+      }
+    });
+    console.log(stu);
+  }
+  var s1 = '23Tadashi23 1Takahiro32 2Takao32 Takashi32 Takayuki Takehiko Takeo Takeshi Takeshi';
+  lineupStudents(s1);//输出['Takehiko','Takayuki','Takahiro','Takeshi','Takeshi','Takashi','Tadashi','Takeo','Takao']
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+.gutter-example .ant-row > div {
+  background: transparent;
+  border: 0px;
+}
+.gutter-example .gutter-row .ant-table-title {
+  text-align: center;
+}
+/*.gutter-row{*/
+/*background-color: yellow;*/
+/*margin-left: 0;*/
+/*margin-right: 0px*/
+/*}*/
+/*.gutter-box {*/
+  /*!*background: #00A0E9;*!*/
+  /*background: transparent;*/
+  /*border-left: 1px solid gainsboro;*/
+  /*border-right: 1px solid gainsboro;*/
+  /*border-bottom: 1px solid gainsboro;*/
+  /*height: 50px;*/
+  /*!*padding: 3px 0;*!*/
+  /*!*margin-left: 0;*!*/
+  /*!*margin-right: 0px*!*/
+/*}*/
+
