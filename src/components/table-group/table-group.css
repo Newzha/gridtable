@@ -22,17 +22,4 @@
   /*!*margin-left: 0;*!*/
   /*!*margin-right: 0px*!*/
 /*}*/
-/*
-<Input
- ref={node => (this.input = node)}
-onPressEnter={this.save}
-/>
-*/
-/*
-<Select style={{ width: 120 }} onChange={this.handleChange}>
-                        <Select.Option value="jack"  >Jack</Select.Option>
-                        <Select.Option value="lucy" >Lucy</Select.Option>
-                        <Select.Option value="disabled" >Disabled</Select.Option>
-                        <Select.Option value="Yiminghe" >yiminghe</Select.Option>
-                      </Select>
-*/
+

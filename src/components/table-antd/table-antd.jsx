@@ -52,9 +52,9 @@ class EditableCell extends Component {
   toggleEdit = () => {
     const editing = !this.state.editing;
     this.setState({ editing }, () => {
-      if (editing) {
-        this.input.focus();
-      }
+      // if (editing) {
+      //   this.input.focus();
+      // }
     });
   }
 
@@ -75,7 +75,10 @@ class EditableCell extends Component {
       handleSave({ ...record, ...values });
     });
   }
-
+  handleChange =(value) => {
+    console.log(`Select.Option ${value}`);
+    console.log("12123")
+  }
   render() {
     const { editing } = this.state;
     const {
@@ -106,7 +109,7 @@ class EditableCell extends Component {
                       <Input
                         ref={node => (this.input = node)}
                         onPressEnter={this.save}
-                      />
+                      />,
                     )}
                   </FormItem>
                 ) : (
@@ -136,13 +139,11 @@ export default class TableEdit extends Component {
         dataIndex: 'operation',
         width: 100,
         render: (text, record) => {
-                return (
-                  this.state.data.length >= 1
-                    ? (
+                return (this.state.data.length >= 1 ? (
                 <Popconfirm title="Sure to delete?" onConfirm={() => this.handleDelete(record.key)}>
                   <a href="javascript:;">删除</a>
                 </Popconfirm>
-              ) : '暂无数据，请添加'
+                    ) : '暂无数据，请添加'
           );
         },
       }, {
@@ -220,7 +221,7 @@ export default class TableEdit extends Component {
           const { searchText, data } = this.state;
           const Option = Select.Option;
           const start = data.map(s => s.start) ;
-          console.log(start);
+          // console.log(start);
           const children = [];
           for (let i = 0; i < start.length; i++) {
             children.push(<Option value={start[i]} key={i}>{start[i]}</Option>);
@@ -247,8 +248,6 @@ export default class TableEdit extends Component {
               placeholder={'发站'}
               // defaultValue={['a10', 'c12']}
               //  defaultValue={ start[0] }
-              // defaultValue={datastart}
-              //  key={index}
               // value = {start[this.index]}
               // defaultValue={start[this.index]}
               showSearch
@@ -491,13 +490,13 @@ export default class TableEdit extends Component {
   }
 
   handleSave = (row) => {
-    console.log(row) //点击的当前行data
+    // console.log(row) //点击的当前行data
     const newData = [...this.state.data]; //获取stata状态中的data
-    console.log(newData)
+    // console.log(newData)
     const index = newData.findIndex(item => row.key === item.key); //得到点击的当前行index
-    console.log('index'+index)
+    // console.log('index'+index)
     const item = newData[index]; //匹配对应的item
-    console.log("item"+item)
+    // console.log("item"+item)
     newData.splice(index, 1, {
       ...item,
       ...row,

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6af16e0-9b1e-4726-8f08-252ceac48c52" name="Default" comment="" />
+    <list default="true" id="c6af16e0-9b1e-4726-8f08-252ceac48c52" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/grid-table-data/grid-table-data.css" afterPath="$PROJECT_DIR$/src/components/grid-table-data/grid-table-data.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/grid-table-data/grid-table-data.js" afterPath="$PROJECT_DIR$/src/components/grid-table-data/grid-table-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/table-antd/table-antd.jsx" afterPath="$PROJECT_DIR$/src/components/table-antd/table-antd.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/table-antd/test.jsx" afterPath="$PROJECT_DIR$/src/components/table-antd/test.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,34 +24,54 @@
       <file leaf-file-name="table-antd.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/table-antd/table-antd.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6020">
-              <caret line="439" column="35" lean-forward="false" selection-start-line="439" selection-start-column="35" selection-end-line="439" selection-end-column="35" />
+            <state relative-caret-position="120">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="e#319#363#0" expanded="true" />
-                <element signature="e#4038#4419#0" expanded="false" />
-                <element signature="e#5015#5179#0" expanded="false" />
-                <element signature="e#5446#5988#0" expanded="false" />
-                <element signature="e#6252#6387#0" expanded="false" />
-                <element signature="e#9013#9297#0" expanded="false" />
-                <element signature="e#9452#9552#0" expanded="false" />
-                <element signature="e#9554#9658#0" expanded="false" />
-                <element signature="e#9660#9756#0" expanded="false" />
-                <element signature="e#9758#9853#0" expanded="false" />
-                <element signature="e#9855#9950#0" expanded="false" />
-                <element signature="e#10075#10180#0" expanded="false" />
-                <element signature="e#10293#10400#0" expanded="false" />
-                <element signature="e#10402#10507#0" expanded="false" />
-                <element signature="e#10509#10613#0" expanded="false" />
-                <element signature="e#10719#10832#0" expanded="false" />
-                <element signature="e#10834#10939#0" expanded="false" />
-                <element signature="e#10941#11048#0" expanded="false" />
-                <element signature="e#11050#11146#0" expanded="false" />
-                <element signature="e#11704#12163#0" expanded="false" />
-                <marker date="1544687676671" expanded="false" signature="8469:8976" ph="&lt;Select/&gt;" />
-                <marker date="1544687676671" expanded="true" signature="15645:16069" ph="..." />
-                <marker date="1544687676671" expanded="true" signature="15767:15801" ph="..." />
-                <marker date="1544687676671" expanded="true" signature="15817:15906" ph="..." />
+                <element signature="e#757#987#0" expanded="false" />
+                <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
+                <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
+                <element signature="e#4115#4496#0" expanded="false" />
+                <element signature="e#5092#5256#0" expanded="false" />
+                <element signature="e#5523#6065#0" expanded="false" />
+                <element signature="e#6329#6464#0" expanded="false" />
+                <element signature="e#9021#9305#0" expanded="false" />
+                <element signature="e#9460#9560#0" expanded="false" />
+                <element signature="e#9562#9666#0" expanded="false" />
+                <element signature="e#9668#9764#0" expanded="false" />
+                <element signature="e#9766#9861#0" expanded="false" />
+                <element signature="e#9863#9958#0" expanded="false" />
+                <element signature="e#10083#10188#0" expanded="false" />
+                <element signature="e#10301#10408#0" expanded="false" />
+                <element signature="e#10410#10515#0" expanded="false" />
+                <element signature="e#10517#10621#0" expanded="false" />
+                <element signature="e#10727#10840#0" expanded="false" />
+                <element signature="e#10842#10947#0" expanded="false" />
+                <element signature="e#10949#11056#0" expanded="false" />
+                <element signature="e#11058#11154#0" expanded="false" />
+                <element signature="e#11712#12171#0" expanded="false" />
+                <marker date="1545040872985" expanded="false" signature="8477:8984" ph="&lt;Select/&gt;" />
+                <marker date="1545040872985" expanded="true" signature="15665:16089" ph="..." />
+                <marker date="1545040872985" expanded="true" signature="15787:15821" ph="..." />
+                <marker date="1545040872985" expanded="true" signature="15837:15926" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/table-antd/test.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1760">
+              <caret line="96" column="65" lean-forward="false" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
+                <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
+                <element signature="e#3892#3943#0" expanded="false" />
+                <element signature="e#3945#4004#0" expanded="false" />
+                <element signature="e#5069#5363#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -53,18 +80,32 @@
       <file leaf-file-name="vertical-glass-data.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-data/vertical-glass-data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3580">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="1860">
+              <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid-table-data.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grid-table-data.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/grid-table-data/grid-table-data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="145" column="42" lean-forward="true" selection-start-line="145" selection-start-column="42" selection-end-line="145" selection-end-column="42" />
+            <state relative-caret-position="320">
+              <caret line="124" column="8" lean-forward="true" selection-start-line="112" selection-start-column="6" selection-end-line="124" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#767#910#0" expanded="false" />
+                <element signature="e#3044#3088#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="table-group.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/table-group/table-group.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -72,11 +113,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="table-group.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/table-group/table-group.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Table.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/antd/es/table/Table.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="1009" column="20" lean-forward="true" selection-start-line="1009" selection-start-column="20" selection-end-line="1009" selection-end-column="20" />
+            <state relative-caret-position="284">
+              <caret line="1014" column="2" lean-forward="false" selection-start-line="1014" selection-start-column="2" selection-end-line="1014" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -85,8 +136,8 @@
       <file leaf-file-name="grid-table-data.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/grid-table-data/grid-table-data.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="218">
+              <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -95,7 +146,7 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
+            <state relative-caret-position="300">
               <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
             </state>
@@ -105,8 +156,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="80">
+              <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -131,10 +182,12 @@
       <find>getFieldDecorator</find>
       <find>EditableFormRow</find>
       <find>filterDropdown</find>
-      <find>onCell</find>
       <find>handleSave</find>
       <find>width</find>
       <find>map</find>
+      <find>onCell</find>
+      <find>editing</find>
+      <find>contains</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/components/table-antd.jsx" />
         <option value="$PROJECT_DIR$/src/components/edit-table-cell/edit-table-cell.css" />
         <option value="$PROJECT_DIR$/src/components/table-antd/test.css" />
-        <option value="$PROJECT_DIR$/src/components/table-antd/test.jsx" />
         <option value="$PROJECT_DIR$/src/components/edit-table-cell/edit-table-cell.jsx" />
         <option value="$PROJECT_DIR$/src/components/filter-table/FilterTable.css" />
         <option value="$PROJECT_DIR$/src/components/filter-table/filter-table.jsx" />
@@ -160,11 +212,14 @@
         <option value="$PROJECT_DIR$/src/components/table-antd/table-antd.css" />
         <option value="$PROJECT_DIR$/src/components/vertical-glass/vertical-glass.js" />
         <option value="$PROJECT_DIR$/src/test.html" />
-        <option value="$PROJECT_DIR$/src/components/table-antd/table-antd.jsx" />
         <option value="$PROJECT_DIR$/src/components/vertical-glass-data/vertical-glass-data.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/grid-table-data/grid-table-data.css" />
         <option value="$PROJECT_DIR$/src/components/grid-table-data/grid-table-data.js" />
+        <option value="$PROJECT_DIR$/src/components/table-antd/table-antd.jsx" />
+        <option value="$PROJECT_DIR$/src/components/grid-table-data/grid-table-data.css" />
+        <option value="$PROJECT_DIR$/src/components/table-antd/test.jsx" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/table-group/table-group.css" />
+        <option value="$PROJECT_DIR$/src/components/table-group/table-group.js" />
       </list>
     </option>
   </component>
@@ -187,8 +242,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="250" />
-    <option name="y" value="41" />
+    <option name="x" value="172" />
+    <option name="y" value="57" />
     <option name="width" value="1182" />
     <option name="height" value="696" />
   </component>
@@ -223,8 +278,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,17 +315,26 @@
               <item name="table_vertical_glass" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="table-group" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="table_vertical_glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="table_vertical_glass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="vertical-glass-data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react_redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wangyi_react" />
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/node/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="node.js.path.for.package.eslint" value="C:/Program Files (x86)/node/node" />
@@ -287,12 +349,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\table_react_antd\src\components\table-antd" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\A-RCD\react\source\table_vertical_glass\src\components\table-group" />
+      <recent name="D:\A-RCD\react\source\table_vertical_glass\src\components" />
       <recent name="D:\A-RCD\react\source\table_react_antd\src\untils\pinyin" />
       <recent name="D:\A-RCD\react\source\table_react_antd\src\untils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\table_react_antd\src\components\table-antd" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,12 +397,14 @@
       <workItem from="1544494525906" duration="13328000" />
       <workItem from="1544577843833" duration="8048000" />
       <workItem from="1544663944558" duration="12879000" />
-      <workItem from="1544753446802" duration="14637000" />
+      <workItem from="1544753446802" duration="15313000" />
+      <workItem from="1545008655311" duration="13057000" />
+      <workItem from="1545101678742" duration="12549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170224000" />
+    <option name="totallyTimeSpent" value="196506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,16 +416,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="250" y="41" width="1182" height="696" extended-state="0" />
+    <frame x="172" y="57" width="1182" height="696" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1687063" sideWeight="0.492569" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24825175" sideWeight="0.492569" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1687063" sideWeight="0.507431" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22241993" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16192171" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -379,7 +446,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -393,23 +460,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/tags-select/tags-select.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/filter-table/filter-table.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="76" column="62" lean-forward="false" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/filter-table/filter-table.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -422,7 +472,12 @@
         <state relative-caret-position="20">
           <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="42" />
           <folding>
-            <element signature="e#2918#3013#0" expanded="false" />
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
+            <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
+            <element signature="e#3892#3943#0" expanded="false" />
+            <element signature="e#3945#4004#0" expanded="false" />
+            <element signature="e#5069#5363#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -487,7 +542,12 @@
         <state relative-caret-position="20">
           <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="42" />
           <folding>
-            <element signature="e#2918#3013#0" expanded="false" />
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
+            <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
+            <element signature="e#3892#3943#0" expanded="false" />
+            <element signature="e#3945#4004#0" expanded="false" />
+            <element signature="e#5069#5363#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -516,29 +576,32 @@
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="e#319#363#0" expanded="true" />
-            <element signature="e#4038#4419#0" expanded="false" />
-            <element signature="e#5015#5179#0" expanded="false" />
-            <element signature="e#5446#5988#0" expanded="false" />
-            <element signature="e#6252#6387#0" expanded="false" />
-            <element signature="e#9013#9297#0" expanded="false" />
-            <element signature="e#9452#9552#0" expanded="false" />
-            <element signature="e#9554#9658#0" expanded="false" />
-            <element signature="e#9660#9756#0" expanded="false" />
-            <element signature="e#9758#9853#0" expanded="false" />
-            <element signature="e#9855#9950#0" expanded="false" />
-            <element signature="e#10075#10180#0" expanded="false" />
-            <element signature="e#10293#10400#0" expanded="false" />
-            <element signature="e#10402#10507#0" expanded="false" />
-            <element signature="e#10509#10613#0" expanded="false" />
-            <element signature="e#10719#10832#0" expanded="false" />
-            <element signature="e#10834#10939#0" expanded="false" />
-            <element signature="e#10941#11048#0" expanded="false" />
-            <element signature="e#11050#11146#0" expanded="false" />
-            <element signature="e#11704#12163#0" expanded="false" />
-            <marker date="1544687676671" expanded="false" signature="8469:8976" ph="&lt;Select/&gt;" />
-            <marker date="1544687676671" expanded="true" signature="15645:16069" ph="..." />
-            <marker date="1544687676671" expanded="true" signature="15767:15801" ph="..." />
-            <marker date="1544687676671" expanded="true" signature="15817:15906" ph="..." />
+            <element signature="e#757#987#0" expanded="false" />
+            <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
+            <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
+            <element signature="e#4115#4496#0" expanded="false" />
+            <element signature="e#5092#5256#0" expanded="false" />
+            <element signature="e#5523#6065#0" expanded="false" />
+            <element signature="e#6329#6464#0" expanded="false" />
+            <element signature="e#9021#9305#0" expanded="false" />
+            <element signature="e#9460#9560#0" expanded="false" />
+            <element signature="e#9562#9666#0" expanded="false" />
+            <element signature="e#9668#9764#0" expanded="false" />
+            <element signature="e#9766#9861#0" expanded="false" />
+            <element signature="e#9863#9958#0" expanded="false" />
+            <element signature="e#10083#10188#0" expanded="false" />
+            <element signature="e#10301#10408#0" expanded="false" />
+            <element signature="e#10410#10515#0" expanded="false" />
+            <element signature="e#10517#10621#0" expanded="false" />
+            <element signature="e#10727#10840#0" expanded="false" />
+            <element signature="e#10842#10947#0" expanded="false" />
+            <element signature="e#10949#11056#0" expanded="false" />
+            <element signature="e#11058#11154#0" expanded="false" />
+            <element signature="e#11712#12171#0" expanded="false" />
+            <marker date="1545040872985" expanded="false" signature="8477:8984" ph="&lt;Select/&gt;" />
+            <marker date="1545040872985" expanded="true" signature="15665:16089" ph="..." />
+            <marker date="1545040872985" expanded="true" signature="15787:15821" ph="..." />
+            <marker date="1545040872985" expanded="true" signature="15837:15926" ph="..." />
           </folding>
         </state>
       </provider>
@@ -586,7 +649,12 @@
         <state relative-caret-position="20">
           <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="42" />
           <folding>
-            <element signature="e#2918#3013#0" expanded="false" />
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
+            <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
+            <element signature="e#3892#3943#0" expanded="false" />
+            <element signature="e#3945#4004#0" expanded="false" />
+            <element signature="e#5069#5363#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -615,29 +683,32 @@
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="e#319#363#0" expanded="true" />
-            <element signature="e#4038#4419#0" expanded="false" />
-            <element signature="e#5015#5179#0" expanded="false" />
-            <element signature="e#5446#5988#0" expanded="false" />
-            <element signature="e#6252#6387#0" expanded="false" />
-            <element signature="e#9013#9297#0" expanded="false" />
-            <element signature="e#9452#9552#0" expanded="false" />
-            <element signature="e#9554#9658#0" expanded="false" />
-            <element signature="e#9660#9756#0" expanded="false" />
-            <element signature="e#9758#9853#0" expanded="false" />
-            <element signature="e#9855#9950#0" expanded="false" />
-            <element signature="e#10075#10180#0" expanded="false" />
-            <element signature="e#10293#10400#0" expanded="false" />
-            <element signature="e#10402#10507#0" expanded="false" />
-            <element signature="e#10509#10613#0" expanded="false" />
-            <element signature="e#10719#10832#0" expanded="false" />
-            <element signature="e#10834#10939#0" expanded="false" />
-            <element signature="e#10941#11048#0" expanded="false" />
-            <element signature="e#11050#11146#0" expanded="false" />
-            <element signature="e#11704#12163#0" expanded="false" />
-            <marker date="1544687676671" expanded="false" signature="8469:8976" ph="&lt;Select/&gt;" />
-            <marker date="1544687676671" expanded="true" signature="15645:16069" ph="..." />
-            <marker date="1544687676671" expanded="true" signature="15767:15801" ph="..." />
-            <marker date="1544687676671" expanded="true" signature="15817:15906" ph="..." />
+            <element signature="e#757#987#0" expanded="false" />
+            <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
+            <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
+            <element signature="e#4115#4496#0" expanded="false" />
+            <element signature="e#5092#5256#0" expanded="false" />
+            <element signature="e#5523#6065#0" expanded="false" />
+            <element signature="e#6329#6464#0" expanded="false" />
+            <element signature="e#9021#9305#0" expanded="false" />
+            <element signature="e#9460#9560#0" expanded="false" />
+            <element signature="e#9562#9666#0" expanded="false" />
+            <element signature="e#9668#9764#0" expanded="false" />
+            <element signature="e#9766#9861#0" expanded="false" />
+            <element signature="e#9863#9958#0" expanded="false" />
+            <element signature="e#10083#10188#0" expanded="false" />
+            <element signature="e#10301#10408#0" expanded="false" />
+            <element signature="e#10410#10515#0" expanded="false" />
+            <element signature="e#10517#10621#0" expanded="false" />
+            <element signature="e#10727#10840#0" expanded="false" />
+            <element signature="e#10842#10947#0" expanded="false" />
+            <element signature="e#10949#11056#0" expanded="false" />
+            <element signature="e#11058#11154#0" expanded="false" />
+            <element signature="e#11712#12171#0" expanded="false" />
+            <marker date="1545040872985" expanded="false" signature="8477:8984" ph="&lt;Select/&gt;" />
+            <marker date="1545040872985" expanded="true" signature="15665:16089" ph="..." />
+            <marker date="1545040872985" expanded="true" signature="15787:15821" ph="..." />
+            <marker date="1545040872985" expanded="true" signature="15837:15926" ph="..." />
           </folding>
         </state>
       </provider>
@@ -708,16 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/table-antd/test.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3580">
-          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="42" />
-          <folding>
-            <element signature="e#2918#3013#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -772,86 +833,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/table-antd/table-antd.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6020">
-          <caret line="439" column="35" lean-forward="false" selection-start-line="439" selection-start-column="35" selection-end-line="439" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#319#363#0" expanded="true" />
-            <element signature="e#4038#4419#0" expanded="false" />
-            <element signature="e#5015#5179#0" expanded="false" />
-            <element signature="e#5446#5988#0" expanded="false" />
-            <element signature="e#6252#6387#0" expanded="false" />
-            <element signature="e#9013#9297#0" expanded="false" />
-            <element signature="e#9452#9552#0" expanded="false" />
-            <element signature="e#9554#9658#0" expanded="false" />
-            <element signature="e#9660#9756#0" expanded="false" />
-            <element signature="e#9758#9853#0" expanded="false" />
-            <element signature="e#9855#9950#0" expanded="false" />
-            <element signature="e#10075#10180#0" expanded="false" />
-            <element signature="e#10293#10400#0" expanded="false" />
-            <element signature="e#10402#10507#0" expanded="false" />
-            <element signature="e#10509#10613#0" expanded="false" />
-            <element signature="e#10719#10832#0" expanded="false" />
-            <element signature="e#10834#10939#0" expanded="false" />
-            <element signature="e#10941#11048#0" expanded="false" />
-            <element signature="e#11050#11146#0" expanded="false" />
-            <element signature="e#11704#12163#0" expanded="false" />
-            <marker date="1544687676671" expanded="false" signature="8469:8976" ph="&lt;Select/&gt;" />
-            <marker date="1544687676671" expanded="true" signature="15645:16069" ph="..." />
-            <marker date="1544687676671" expanded="true" signature="15767:15801" ph="..." />
-            <marker date="1544687676671" expanded="true" signature="15817:15906" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
+        <state relative-caret-position="300">
           <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/antd/es/table/Table.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="1009" column="20" lean-forward="true" selection-start-line="1009" selection-start-column="20" selection-end-line="1009" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-data/vertical-glass-data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3580">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/grid-table-data/grid-table-data.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="218">
+          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/es/table/Table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="1014" column="2" lean-forward="false" selection-start-line="1014" selection-start-column="2" selection-end-line="1014" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/table-antd/table-antd.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#319#363#0" expanded="true" />
+            <element signature="e#757#987#0" expanded="false" />
+            <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
+            <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
+            <element signature="e#4115#4496#0" expanded="false" />
+            <element signature="e#5092#5256#0" expanded="false" />
+            <element signature="e#5523#6065#0" expanded="false" />
+            <element signature="e#6329#6464#0" expanded="false" />
+            <element signature="e#9021#9305#0" expanded="false" />
+            <element signature="e#9460#9560#0" expanded="false" />
+            <element signature="e#9562#9666#0" expanded="false" />
+            <element signature="e#9668#9764#0" expanded="false" />
+            <element signature="e#9766#9861#0" expanded="false" />
+            <element signature="e#9863#9958#0" expanded="false" />
+            <element signature="e#10083#10188#0" expanded="false" />
+            <element signature="e#10301#10408#0" expanded="false" />
+            <element signature="e#10410#10515#0" expanded="false" />
+            <element signature="e#10517#10621#0" expanded="false" />
+            <element signature="e#10727#10840#0" expanded="false" />
+            <element signature="e#10842#10947#0" expanded="false" />
+            <element signature="e#10949#11056#0" expanded="false" />
+            <element signature="e#11058#11154#0" expanded="false" />
+            <element signature="e#11712#12171#0" expanded="false" />
+            <marker date="1545040872985" expanded="false" signature="8477:8984" ph="&lt;Select/&gt;" />
+            <marker date="1545040872985" expanded="true" signature="15665:16089" ph="..." />
+            <marker date="1545040872985" expanded="true" signature="15787:15821" ph="..." />
+            <marker date="1545040872985" expanded="true" signature="15837:15926" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/table-antd/test.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="96" column="65" lean-forward="false" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
+            <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
+            <element signature="e#3892#3943#0" expanded="false" />
+            <element signature="e#3945#4004#0" expanded="false" />
+            <element signature="e#5069#5363#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-data/vertical-glass-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/grid-table-data/grid-table-data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="145" column="42" lean-forward="true" selection-start-line="145" selection-start-column="42" selection-end-line="145" selection-end-column="42" />
+        <state relative-caret-position="320">
+          <caret line="124" column="8" lean-forward="true" selection-start-line="112" selection-start-column="6" selection-end-line="124" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#767#910#0" expanded="false" />
+            <element signature="e#3044#3088#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/table-group/table-group.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/table-group/table-group.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

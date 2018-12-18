@@ -146,7 +146,7 @@ export default class GridTableData extends React.Component {
               columns={this.state.columns}
               dataSource={dataForm}
               title={() => '车站一'}
-              footer={() => ' '}
+              footer={() => ''}
             />
             {/*<div className="gutter-box" ></div>*/}
           </Col>
