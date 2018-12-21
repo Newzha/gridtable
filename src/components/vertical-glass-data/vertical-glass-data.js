@@ -15,7 +15,6 @@ export default class VerticalGlassData extends React.Component{
           // defaultSortOrder: 'ascend',
           // sorter: (a, b) => a.order - b.order,
           // render: (text) => text == 0? "统计":text,
-
         },
         {
           title: '201', width: 100, dataIndex: 'address201',
@@ -126,21 +125,18 @@ export default class VerticalGlassData extends React.Component{
         address201: 'B201201',
         address203: '4B203203',
         address205: '4B205205',
-
       }, {
         key: '5',
         order: '5',
         address201: 'B201201',
         address203: '5B203203',
         address205: '5B205205',
-
       }, {
         key: '6',
         order: '6',
         address201: 'B201201',
         address203: '6B203203',
         address205: '6B205205',
-
       }, {
         key: '7',
         order: '7',
@@ -203,13 +199,10 @@ export default class VerticalGlassData extends React.Component{
           columns={this.state.columns}
           dataSource={this.state.data}
           scroll={{ x: 1500, y: 300 }} />
-
       </div>
     )
   }
 
 }
-
-
 
 // ReactDOM.render(<Table columns={columns} dataSource={data} scroll={{ x: 1500, y: 300 }} />, document.getElementById('container'));
