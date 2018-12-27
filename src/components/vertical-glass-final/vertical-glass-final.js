@@ -4559,7 +4559,6 @@ class VerticalGlassFinal extends Component {
         pagination={false}
         size="small"
         bordered
-
       />);
   }
 }

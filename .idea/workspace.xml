@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c6af16e0-9b1e-4726-8f08-252ceac48c52" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/table-group/table-group.js" afterPath="$PROJECT_DIR$/src/components/table-group/table-group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.css" afterPath="$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.js" afterPath="$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/vertical-glass-data/vertical-glass-data.js" afterPath="$PROJECT_DIR$/src/components/vertical-glass-data/vertical-glass-data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.js" afterPath="$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,14 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="table-antd.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="table-antd.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/table-antd/table-antd.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+            <state relative-caret-position="20">
+              <caret line="388" column="10" lean-forward="false" selection-start-line="388" selection-start-column="10" selection-end-line="388" selection-end-column="10" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#319#363#0" expanded="true" />
                 <element signature="e#757#987#0" expanded="false" />
                 <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
                 <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
@@ -58,18 +59,96 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/table-antd/test.jsx">
+      <file leaf-file-name="vertical-glass-final.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1760">
-              <caret line="96" column="65" lean-forward="false" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
+            <state relative-caret-position="15140">
+              <caret line="864" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4566" selection-end-column="0" />
+              <folding>
+                <element signature="e#2660#3796#0" expanded="false" />
+                <element signature="e#3812#4434#0" expanded="false" />
+                <element signature="e#76786#76800#0" expanded="false" />
+                <element signature="e#77729#77753#0" expanded="false" />
+                <element signature="e#78060#78082#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vertical-glass-final.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train-editing-display.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
-                <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
-                <element signature="e#3892#3943#0" expanded="false" />
-                <element signature="e#3945#4004#0" expanded="false" />
-                <element signature="e#5069#5363#0" expanded="false" />
+                <element signature="e#948#996#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query-points.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/query-points/query-points.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2060">
+              <caret line="113" column="80" lean-forward="false" selection-start-line="113" selection-start-column="80" selection-end-line="113" selection-end-column="80" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#1234#1351#0" expanded="false" />
+                <element signature="e#1469#1583#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query-points.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/query-points/query-points.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="departure-date-time.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/train-editing-display/departure-date-time/departure-date-time.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train-editing-display.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +157,8 @@
       <file leaf-file-name="vertical-glass-data.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-data/vertical-glass-data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1760">
-              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="1180">
+              <caret line="111" column="34" lean-forward="false" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
               <folding>
                 <element signature="e#606#637#0" expanded="false" />
                 <element signature="e#829#1552#0" expanded="false" />
@@ -88,92 +167,6 @@
                 <element signature="e#1897#1918#0" expanded="false" />
                 <element signature="e#2394#2461#0" expanded="false" />
                 <element signature="e#3660#3806#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vertical-glass-final.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding>
-                <element signature="e#108#150#0" expanded="true" />
-                <element signature="e#490#76767#0" expanded="false" />
-                <element signature="e#518#1654#0" expanded="false" />
-                <element signature="e#76786#76800#0" expanded="false" />
-                <element signature="e#77729#77753#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train-editing-display.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="54" column="8" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="54" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#793#841#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train-editing-display.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vertical-glass-final.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="table-group.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/table-group/table-group.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="table-group.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/table-group/table-group.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="99" column="23" lean-forward="false" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#461#2214#0" expanded="false" />
-                <element signature="e#1688#1699#0" expanded="false" />
-                <element signature="e#2237#2268#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,10 +197,12 @@
       <find>contains</find>
       <find>&lt;Input/&gt;</find>
       <find>CascadeChioce</find>
+      <find>span={6}</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;InPut/&gt;</replace>
       <replace>CascadeChoice</replace>
+      <replace>span={6} offset={1}</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -238,12 +233,17 @@
         <option value="$PROJECT_DIR$/src/components/table-group/table-group.css" />
         <option value="$PROJECT_DIR$/src/components/table-antd/table-antd.jsx" />
         <option value="$PROJECT_DIR$/src/components/table-group/table-group.js" />
-        <option value="$PROJECT_DIR$/src/components/vertical-glass-data/vertical-glass-data.js" />
-        <option value="$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.js" />
-        <option value="$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.css" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.js" />
+        <option value="$PROJECT_DIR$/src/components/train-editing-display/departure-date-time/departure-date-time.css" />
+        <option value="$PROJECT_DIR$/src/components/train-editing-display/departure-date-time/departure-date-time.js" />
+        <option value="$PROJECT_DIR$/src/components/train-editing-display/radio-click/redio-click.js" />
         <option value="$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.css" />
+        <option value="$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.js" />
+        <option value="$PROJECT_DIR$/src/components/query-points/query-points.css" />
+        <option value="$PROJECT_DIR$/src/components/query-points/query-points.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.js" />
+        <option value="$PROJECT_DIR$/src/components/vertical-glass-data/vertical-glass-data.js" />
+        <option value="$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.css" />
       </list>
     </option>
   </component>
@@ -266,10 +266,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="462" />
-    <option name="y" value="8" />
-    <option name="width" value="1182" />
-    <option name="height" value="696" />
+    <option name="x" value="232" />
+    <option name="y" value="13" />
+    <option name="width" value="1138" />
+    <option name="height" value="697" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -302,8 +302,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,6 +328,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="grid-table-data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="table_vertical_glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="table_vertical_glass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="query-points" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="table_vertical_glass" type="b2602c69:ProjectViewProjectNode" />
@@ -362,6 +369,14 @@
               <item name="table_vertical_glass" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="train-editing-display" type="462c0819:PsiDirectoryNode" />
+              <item name="departure-date-time" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="table_vertical_glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="table_vertical_glass" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="vertical-glass-data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -379,7 +394,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../copsec-facility-react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../poc-ui" />
     <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/node/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="node.js.path.for.package.eslint" value="C:/Program Files (x86)/node/node" />
@@ -447,12 +462,19 @@
       <workItem from="1545101678742" duration="13072000" />
       <workItem from="1545181263736" duration="11774000" />
       <workItem from="1545275238752" duration="7114000" />
-      <workItem from="1545355007903" duration="20707000" />
+      <workItem from="1545355007903" duration="20920000" />
+      <workItem from="1545613030307" duration="21441000" />
+      <workItem from="1545699395583" duration="8390000" />
+      <workItem from="1545786201600" duration="2718000" />
+      <workItem from="1545810490790" duration="590000" />
+      <workItem from="1545818847522" duration="305000" />
+      <workItem from="1545872363877" duration="399000" />
+      <workItem from="1545902284259" duration="391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236624000" />
+    <option name="totallyTimeSpent" value="271071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,17 +486,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="462" y="8" width="1182" height="696" extended-state="0" />
-    <editor active="true" />
+    <frame x="232" y="13" width="1138" height="697" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18181819" sideWeight="0.492569" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23181818" sideWeight="0.4845815" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1687063" sideWeight="0.507431" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2229021" sideWeight="0.5154185" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17259787" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19360569" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -495,7 +516,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -509,56 +530,10 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/tags-select/tags-select.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/table-antd/table-antd.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/filter-table/filter-table.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="76" column="62" lean-forward="false" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/filter-table/filter-table.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/table-antd/test.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
-            <element signature="e#3892#3943#0" expanded="false" />
-            <element signature="e#3945#4004#0" expanded="false" />
-            <element signature="e#5069#5363#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -573,9 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="110" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,7 +557,6 @@
           <caret line="376" column="42" lean-forward="false" selection-start-line="376" selection-start-column="42" selection-end-line="376" selection-end-column="42" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#319#363#0" expanded="true" />
             <element signature="e#757#987#0" expanded="false" />
             <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
             <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
@@ -620,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="76" column="62" lean-forward="false" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -644,9 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2060">
           <caret line="107" column="11" lean-forward="false" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,11 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1740">
           <caret line="94" column="8" lean-forward="false" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#31#68#0" expanded="false" />
-            <element signature="e#578#649#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19780">
           <caret line="1014" column="2" lean-forward="false" selection-start-line="1014" selection-start-column="2" selection-end-line="1014" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,11 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#25#0" expanded="false" />
-            <element signature="e#767#910#0" expanded="false" />
-            <element signature="e#3044#3088#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,24 +791,138 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1760">
           <caret line="96" column="65" lean-forward="false" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/table-group/table-group.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/table-group/table-group.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="99" column="23" lean-forward="false" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/train-editing-display/radio-click/redio-click.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/train-editing-display/departure-date-time/departure-date-time.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/train-editing-display/departure-date-time/departure-date-time.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/query-points/query-points.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/query-points/query-points.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2060">
+          <caret line="113" column="80" lean-forward="false" selection-start-line="113" selection-start-column="80" selection-end-line="113" selection-end-column="80" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
-            <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
-            <element signature="e#3892#3943#0" expanded="false" />
-            <element signature="e#3945#4004#0" expanded="false" />
-            <element signature="e#5069#5363#0" expanded="false" />
+            <element signature="e#1234#1351#0" expanded="false" />
+            <element signature="e#1469#1583#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#948#996#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-data/vertical-glass-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1180">
+          <caret line="111" column="34" lean-forward="false" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
+          <folding>
+            <element signature="e#606#637#0" expanded="false" />
+            <element signature="e#829#1552#0" expanded="false" />
+            <element signature="e#874#1113#0" expanded="false" />
+            <element signature="e#1803#2382#0" expanded="false" />
+            <element signature="e#1897#1918#0" expanded="false" />
+            <element signature="e#2394#2461#0" expanded="false" />
+            <element signature="e#3660#3806#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15140">
+          <caret line="864" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4566" selection-end-column="0" />
+          <folding>
+            <element signature="e#2660#3796#0" expanded="false" />
+            <element signature="e#3812#4434#0" expanded="false" />
+            <element signature="e#76786#76800#0" expanded="false" />
+            <element signature="e#77729#77753#0" expanded="false" />
+            <element signature="e#78060#78082#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/table-antd/table-antd.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+        <state relative-caret-position="20">
+          <caret line="388" column="10" lean-forward="false" selection-start-line="388" selection-start-column="10" selection-end-line="388" selection-end-column="10" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#319#363#0" expanded="true" />
             <element signature="e#757#987#0" expanded="false" />
             <element signature="n#!!block;n#componentDidMount#0;n#EditableCell#0" expanded="false" />
             <element signature="n#!!block;n#componentWillUnmount#0;n#EditableCell#0" expanded="false" />
@@ -882,94 +950,6 @@
             <marker date="1545040872985" expanded="true" signature="15787:15821" ph="..." />
             <marker date="1545040872985" expanded="true" signature="15837:15926" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-data/vertical-glass-data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1760">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="e#606#637#0" expanded="false" />
-            <element signature="e#829#1552#0" expanded="false" />
-            <element signature="e#874#1113#0" expanded="false" />
-            <element signature="e#1803#2382#0" expanded="false" />
-            <element signature="e#1897#1918#0" expanded="false" />
-            <element signature="e#2394#2461#0" expanded="false" />
-            <element signature="e#3660#3806#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/table-group/table-group.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/vertical-glass-final/vertical-glass-final.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="e#108#150#0" expanded="true" />
-            <element signature="e#490#76767#0" expanded="false" />
-            <element signature="e#518#1654#0" expanded="false" />
-            <element signature="e#76786#76800#0" expanded="false" />
-            <element signature="e#77729#77753#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/table-group/table-group.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="99" column="23" lean-forward="false" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#461#2214#0" expanded="false" />
-            <element signature="e#1688#1699#0" expanded="false" />
-            <element signature="e#2237#2268#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="54" column="8" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="54" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#793#841#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/train-editing-display/train-editing-display.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>

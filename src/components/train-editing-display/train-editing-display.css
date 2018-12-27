@@ -2,28 +2,38 @@
 .gutter-example {
   background: skyblue;
   border: 1px solid gray;
+  width:auto;
+  height:auto;
 }
 .gutter-example .ant-row > div {
   background: transparent;
   /*border: 1px solid gray;*/
 }
+.gutter-box {
+  /*background: #00A0E9;*/
+  padding: 3px 0;
+}
 .gutter-example .gutter-row .ant-table-title {
   text-align: center;
   background: red;
+}
+.ant-col-offset-1 {
+  margin-left: 2%;
 }
 /*输入框样式*/
 .example-input{
   display: inline-block;
 }
 .example-input .ant-input {
-  width: 90px;
-  margin: 0 8px 8px 0;
+  width: 99px;
+  margin: 0;
 }
-.ant-col-6{
+
+.gutter-box{
   width: auto;
 }
 .select{
-  width: 90px;
+  min-width: 99px;
 }
 .cascadeSelect{
   display: inline-block;

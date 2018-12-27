@@ -1,0 +1,6 @@
+.datePicker {
+  display: inline-block;
+}
+.datePicker span .ant-calendar-picker {
+  width: auto;
+}

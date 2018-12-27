@@ -1,0 +1,13 @@
+.table-operations .start-time,
+.table-operations .trains-number
+{
+  display: inline-block;
+}
+
+.example-input{
+  display: inline-block;
+}
+.example-input .ant-input {
+  width: 99px;
+  margin: 0;
+}
