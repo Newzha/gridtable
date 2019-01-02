@@ -16,6 +16,7 @@ import VerticalGlassFinal from './components/vertical-glass-final/vertical-glass
 // import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<VerticalGlassFinal />, document.getElementById('root'));
+// ReactDOM.render(<QueryPoints />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
