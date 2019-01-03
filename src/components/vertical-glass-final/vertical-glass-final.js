@@ -2862,6 +2862,7 @@ class VerticalGlassFinal extends Component {
     console.log("WagonAndTrack")
     console.log(WagonAndTrack)
     let length = 0
+    let newWagon =[]
     let columns = [
       {
         title: '顺位', columnTitle: '顺位', width: 50, dataIndex: 'gdm', fixed: 'left',
@@ -2878,66 +2879,97 @@ class VerticalGlassFinal extends Component {
     // this.dataTrackStates.map(a => {
     for (let i=0; i<WagonAndTrack.length; i++) {
       console.log(i)
-      if(WagonAndTrack.trackStateEntry) {
-        WagonAndTrack.trackStateEntry.map(index => {
-          console.log(WagonAndTrack[index].trackStateEntry)
+      // WagonAndTrack[i].some(a => return a.clxx)
+      console.log(WagonAndTrack[i])
+      if(WagonAndTrack[i].hasOwnProperty("wagonStockEntry")) {
+        newWagon.push({
+          gdm: WagonAndTrack[i].wagonStockEntry.gdm,
+          ch: WagonAndTrack[i].wagonStockEntry.ch
         })
-        WagonAndTrack.trackStateEntry.map(a => {
-          if(length<a.clxx.length){
-            length = a.clxx.length
+      }
+console.log(newWagon)
+      if(WagonAndTrack[i].hasOwnProperty("clxx")) {
+        console.log(WagonAndTrack[i].hasOwnProperty("clxx"))
+        console.log(WagonAndTrack[i].clxx)
+        // WagonAndTrack.trackStateEntry.map(index => {
+        //   console.log(WagonAndTrack[index].trackStateEntry)
+        // })
+        if(length<WagonAndTrack[i].clxx.length){
+          length = WagonAndTrack[i].clxx.length
+        }
+        columns.push ({
+          title: WagonAndTrack[i].trackStateEntry.gdm,
+          width: 80,
+          dataIndex: WagonAndTrack[i].trackStateEntry.gdm,
+          render: (text, row, index) => {
+            newWagon.map(n => {
+              console.log("gdm")
+              console.log(n.gdm)
+            })
+            // if(WagonAndTrack[i].trackStateEntry.gdm == newWagon.gdm){
+            //  
+            // }
+            // console.log(text,row,index)
+              return index === 0? `${WagonAndTrack[i].cs}/${WagonAndTrack[i].zc}/${WagonAndTrack[i].zz}`: ["12","23"]
           }
-          columns.push ({
-            title: a.trackStateEntry.gdm,
-            width : 80,
-            dataIndex: a.trackStateEntry.gdm,
-            render: (text, row, index) => {
-              if(index===0){
-                return `${a.cs}/${a.zc}/${a.zz}`
-              }
-              // else {
-              //   this.dataWagon.filter(b => {
-              //     // console.log(b.wagonStockEntry.ch)
-              //     // console.log(a.trackStateEntry.gdm)
-              //     // console.log(b.wagonStockEntry.gdm)
-              //     // console.log(a.trackStateEntry.gdm)
-              //     // b.wagonStockEntry.gdm == row.dataIndex.value ? return b.wagonStockEntry.ch : ''
-              //     if(b.wagonStockEntry.gdm == a.trackStateEntry.gdm){
-              //       // console.log('111')
-              //       return  b.wagonStockEntry.ch
-              //
-              //     }
-              //   })
-              // }
-              // this.dataWagon.map(b => {
-              //   console.log(b.wagonStockEntry.gdm)
-              //   // console.log(b.wagonStockEntry.ch)
-              //   // console.log(a.trackStateEntry.gdm)
-              //   // console.log(b.wagonStockEntry.gdm)
-              //   // console.log(a.trackStateEntry.gdm)
-              //   // b.wagonStockEntry.gdm == row.dataIndex.value ? return b.wagonStockEntry.ch : ''
-              //   if(b.wagonStockEntry.gdm == a.trackStateEntry.gdm){
-              //     console.log(a.trackStateEntry.gdm)
-              //     console.log(b.wagonStockEntry.ch)
-              //   return `${b.ch}`
-              // console.log(data)
-              //     return  data[0].wagonStockEntry.ch
-              //
-              //   }
-              // })
-              // return index===0? `${a.cs}/${a.zc}/${a.zz}` : ''
-              // return  a.clxx[index]
-              // if(row.key[0]){
-              //  return a.cs
-              // }
-              // return (<span className="text-hidden">{ a.clxx[index]}</span>)
-            }
-          })
         })
+        // WagonAndTrack.map(a => {
+        //   if(length<a.clxx.length){
+        //     length = a.clxx.length
+        //   }
+        //   columns.push ({
+        //     title: a.trackStateEntry.gdm,
+        //     width : 80,
+        //     dataIndex: a.trackStateEntry.gdm,
+        //     render: (text, row, index) => {
+        //       if(index===0){
+        //         return `${a.cs}/${a.zc}/${a.zz}`
+        //       }
+        //       // else {
+        //       //   this.dataWagon.filter(b => {
+        //       //     // console.log(b.wagonStockEntry.ch)
+        //       //     // console.log(a.trackStateEntry.gdm)
+        //       //     // console.log(b.wagonStockEntry.gdm)
+        //       //     // console.log(a.trackStateEntry.gdm)
+        //       //     // b.wagonStockEntry.gdm == row.dataIndex.value ? return b.wagonStockEntry.ch : ''
+        //       //     if(b.wagonStockEntry.gdm == a.trackStateEntry.gdm){
+        //       //       // console.log('111')
+        //       //       return  b.
+
+        //       //
+        //       //     }
+        //       //   })
+        //       // }
+        //       // this.dataWagon.map(b => {
+        //       //   console.log(b.wagonStockEntry.gdm)
+        //       //   // console.log(b.wagonStockEntry.ch)
+        //       //   // console.log(a.trackStateEntry.gdm)
+        //       //   // console.log(b.wagonStockEntry.gdm)
+        //       //   // console.log(a.trackStateEntry.gdm)
+        //       //   // b.wagonStockEntry.gdm == row.dataIndex.value ? return b.wagonStockEntry.ch : ''
+        //       //   if(b.wagonStockEntry.gdm == a.trackStateEntry.gdm){
+        //       //     console.log(a.trackStateEntry.gdm)
+        //       //     console.log(b.wagonStockEntry.ch)
+        //       //   return `${b.ch}`
+        //       // console.log(data)
+        //       //     return  data[0].wagonStockEntry.ch
+        //       //
+        //       //   }
+        //       // })
+        //       // return index===0? `${a.cs}/${a.zc}/${a.zz}` : ''
+        //       // return  a.clxx[index]
+        //       // if(row.key[0]){
+        //       //  return a.cs
+        //       // }
+        //       // return (<span className="text-hidden">{ a.clxx[index]}</span>)
+        //     }
+        //   })
+        // })
       }
     }
 
 
-    let newdata = new Array()
+    let newdata = []
     for(let i=0;i<length;i++){
       // newdata.push(i)
       newdata.push({
