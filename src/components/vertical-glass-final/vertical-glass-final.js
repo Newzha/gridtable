@@ -2800,10 +2800,247 @@ class VerticalGlassFinal extends Component {
       "glxs": "",
       "blzd5": null,
       "log": false
+    },
+    {
+      "wagonStockEntry": {
+        "cid": "1653505",
+        "ch": "108350501",
+        "lcid": "",
+        "lcidp": "W",
+        "zmlm": "LNZ",
+        "tm": 36266,
+        "gdm": "108",
+        "swh": 1,
+        "cz": "C70",
+        "czdm": "C70",
+        "czjm": "C",
+        "czlb": "H",
+        "yz": "",
+        "bjzz": 70,
+        "ziz": 23800,
+        "bqbz": "0",
+        "hc": 13,
+        "clsz": "",
+        "qbcz": "",
+        "qbhc": 0,
+        "aeicz": "C70",
+        "aeihc": 13,
+        "aeibz": "*",
+        "czbj": "",
+        "zaiz": 56000,
+        "kzbz": "1",
+        "fzh": "HMR",
+        "fzm": "哈密",
+        "fj": "14",
+        "dzh": "JEW",
+        "dzm": "九里",
+        "dj": "11",
+        "pb": 0,
+        "pm": "自二重2",
+        "pmdm": "",
+        "pldm": "",
+        "pmzl": "",
+        "wpdm": "",
+        "gldh": 0,
+        "jybz": "",
+        "xhbz": "",
+        "jsl": "",
+        "shr": "峨眉山市尚阳物资有限公司",
+        "shrjc": "",
+        "shrdm": "",
+        "fhr": "江西省达隍源商贸有限公司",
+        "fhrjc": "",
+        "fyym": 0,
+        "zlbz": "",
+        "kybz": "",
+        "plbl": "",
+        "ydh": "HMRJ0076139",
+        "qdid": "",
+        "qdh": "",
+        "hpid": "JX20181202HMRJ0076139",
+        "hph": "HMRJ0076139",
+        "xjzx": 0,
+        "xjzh": "",
+        "fybz": "",
+        "sysx": "",
+        "zubz": "",
+        "sfh": "",
+        "pbh": "",
+        "pbsz": "",
+        "hwbz": "",
+        "sfpbb": "",
+        "pbbz": "",
+        "sfbz": "",
+        "pjid": "",
+        "pjlx": "3",
+        "wlbz": "",
+        "gmbz": "",
+        "ydqx": 0,
+        "lfxz": "",
+        "fxh": "005",
+        "fxhj": "",
+        "fxhl": "",
+        "pdfx": "",
+        "pdgz": "",
+        "fcbz": "",
+        "kcdw": "",
+        "bllc": "",
+        "hsbz": "",
+        "cltz": "",
+        "clzt": "",
+        "ydbz": 0,
+        "xgdm": "",
+        "zgdm": "",
+        "dgdm": "",
+        "fgdm": "",
+        "hgzfxx": "",
+        "gjzfxx": "",
+        "gbbj": "",
+        "xzbj": "",
+        "lyjsl": "",
+        "zybz": "",
+        "ct": "",
+        "zzlx": "0",
+        "xzc": "0",
+        "sgbz": "0",
+        "ddcc": "YGWENW48081",
+        "cfcc": "CJWYGW37001",
+        "xh": 127254,
+        "ddrq": "2018-12-06 14:56:02",
+        "cfrq": "2018-11-27 00:59:54",
+        "delbz": 0,
+        "eventtime": "2018-12-06 14:56:21",
+        "inittime": "2017-08-08 21:17:01"
+      },
+      "pdfx": "005",
+      "tzxs": null,
+      "lfxz": null,
+      "xzxs": null,
+      "glxs": "",
+      "blzd5": null,
+      "log": false
+    },
+    {
+      "wagonStockEntry": {
+        "cid": "1653505",
+        "ch": "108350503",
+        "lcid": "",
+        "lcidp": "W",
+        "zmlm": "LNZ",
+        "tm": 36266,
+        "gdm": "108",
+        "swh": 1,
+        "cz": "C70",
+        "czdm": "C70",
+        "czjm": "C",
+        "czlb": "H",
+        "yz": "",
+        "bjzz": 70,
+        "ziz": 23800,
+        "bqbz": "0",
+        "hc": 13,
+        "clsz": "",
+        "qbcz": "",
+        "qbhc": 0,
+        "aeicz": "C70",
+        "aeihc": 13,
+        "aeibz": "*",
+        "czbj": "",
+        "zaiz": 56000,
+        "kzbz": "1",
+        "fzh": "HMR",
+        "fzm": "哈密",
+        "fj": "14",
+        "dzh": "JEW",
+        "dzm": "九里",
+        "dj": "11",
+        "pb": 0,
+        "pm": "自二重2",
+        "pmdm": "",
+        "pldm": "",
+        "pmzl": "",
+        "wpdm": "",
+        "gldh": 0,
+        "jybz": "",
+        "xhbz": "",
+        "jsl": "",
+        "shr": "峨眉山市尚阳物资有限公司",
+        "shrjc": "",
+        "shrdm": "",
+        "fhr": "江西省达隍源商贸有限公司",
+        "fhrjc": "",
+        "fyym": 0,
+        "zlbz": "",
+        "kybz": "",
+        "plbl": "",
+        "ydh": "HMRJ0076139",
+        "qdid": "",
+        "qdh": "",
+        "hpid": "JX20181202HMRJ0076139",
+        "hph": "HMRJ0076139",
+        "xjzx": 0,
+        "xjzh": "",
+        "fybz": "",
+        "sysx": "",
+        "zubz": "",
+        "sfh": "",
+        "pbh": "",
+        "pbsz": "",
+        "hwbz": "",
+        "sfpbb": "",
+        "pbbz": "",
+        "sfbz": "",
+        "pjid": "",
+        "pjlx": "3",
+        "wlbz": "",
+        "gmbz": "",
+        "ydqx": 0,
+        "lfxz": "",
+        "fxh": "005",
+        "fxhj": "",
+        "fxhl": "",
+        "pdfx": "",
+        "pdgz": "",
+        "fcbz": "",
+        "kcdw": "",
+        "bllc": "",
+        "hsbz": "",
+        "cltz": "",
+        "clzt": "",
+        "ydbz": 0,
+        "xgdm": "",
+        "zgdm": "",
+        "dgdm": "",
+        "fgdm": "",
+        "hgzfxx": "",
+        "gjzfxx": "",
+        "gbbj": "",
+        "xzbj": "",
+        "lyjsl": "",
+        "zybz": "",
+        "ct": "",
+        "zzlx": "0",
+        "xzc": "0",
+        "sgbz": "0",
+        "ddcc": "YGWENW48081",
+        "cfcc": "CJWYGW37001",
+        "xh": 127254,
+        "ddrq": "2018-12-06 14:56:02",
+        "cfrq": "2018-11-27 00:59:54",
+        "delbz": 0,
+        "eventtime": "2018-12-06 14:56:21",
+        "inittime": "2017-08-08 21:17:01"
+      },
+      "pdfx": "005",
+      "tzxs": null,
+      "lfxz": null,
+      "xzxs": null,
+      "glxs": "",
+      "blzd5": null,
+      "log": false
     }
   ]
 
- testData = []
   // columns = [
   //   {
   //     title: '规则名称',
@@ -2848,13 +3085,6 @@ class VerticalGlassFinal extends Component {
   //   },
   // ];
 
-  // componentDidMount() {
-  //   const { dispatch } = this.props;
-  //   dispatch({
-  //     type: 'rule/fetch',
-  //   });
-  // }
-
   render() {
     const Wagon = this.dataWagon
     const Track = this.dataTrackStates
@@ -2878,16 +3108,18 @@ class VerticalGlassFinal extends Component {
     ]
     // this.dataTrackStates.map(a => {
     for (let i=0; i<WagonAndTrack.length; i++) {
-      console.log(i)
+      console.log("i: "+i)
       // WagonAndTrack[i].some(a => return a.clxx)
       console.log(WagonAndTrack[i])
       if(WagonAndTrack[i].hasOwnProperty("wagonStockEntry")) {
         newWagon.push({
+          key: i,
           gdm: WagonAndTrack[i].wagonStockEntry.gdm,
-          ch: WagonAndTrack[i].wagonStockEntry.ch
+          ch: WagonAndTrack[i].wagonStockEntry.ch,
+          czjm: WagonAndTrack[i].wagonStockEntry.czjm
         })
       }
-console.log(newWagon)
+      console.log(newWagon)
       if(WagonAndTrack[i].hasOwnProperty("clxx")) {
         console.log(WagonAndTrack[i].hasOwnProperty("clxx"))
         console.log(WagonAndTrack[i].clxx)
@@ -2902,15 +3134,37 @@ console.log(newWagon)
           width: 80,
           dataIndex: WagonAndTrack[i].trackStateEntry.gdm,
           render: (text, row, index) => {
-            newWagon.map(n => {
-              console.log("gdm")
-              console.log(n.gdm)
-            })
+            if(index === 0) {
+              return `${WagonAndTrack[i].cs}/${WagonAndTrack[i].zc}/${WagonAndTrack[i].zz}`
+            } else if (WagonAndTrack[i].clxx[index-1]) {
+              console.log("if i:"+i)
+              for (var j = 0; j < newWagon.length; j++) {
+                console.log("for j:"+j)
+                // return newWagon[j].ch
+                if(WagonAndTrack[i].trackStateEntry.gdm == newWagon[j].gdm){
+                  console.log("for j if")
+                  console.log("i:"+i)
+                  console.log("j:"+j)
+                  console.log("jinlaila"+newWagon[j].ch)
+                  // return newWagon[j].czjm+newWagon[j].ch
+                  // return newWagon[j].ch
+                  // return index === 0? `${WagonAndTrack[i].cs}/${WagonAndTrack[i].zc}/${WagonAndTrack[i].zz}`: newWagon[j].ch
+
+                }
+
+              }
+            }
+
+            // newWagon.map(n => {
+            //   console.log("gdm")
+            //   console.log(n.gdm)
+            // //  无法return 出数据
+            // })
             // if(WagonAndTrack[i].trackStateEntry.gdm == newWagon.gdm){
             //  
             // }
             // console.log(text,row,index)
-              return index === 0? `${WagonAndTrack[i].cs}/${WagonAndTrack[i].zc}/${WagonAndTrack[i].zz}`: ["12","23"]
+            //   return index === 0? `${WagonAndTrack[i].cs}/${WagonAndTrack[i].zc}/${WagonAndTrack[i].zz}`: ["12","23"]
           }
         })
         // WagonAndTrack.map(a => {
