@@ -7,7 +7,8 @@ import ReactDOM from 'react-dom';
 // import VerticalGlassData from './components/vertical-glass-data/vertical-glass-data'
 // import GridTableData from './components/grid-table-data/grid-table-data'
 // import TableGroup from './components/table-group/table-group'
-import VerticalGlassFinal from './components/vertical-glass-final/vertical-glass-final'
+// import VerticalGlassFinal from './components/vertical-glass-final/vertical-glass-final'
+import AreaGlass from './components/area-glass/area-glass'
 // import TrainEditingDisplay from './components/train-editing-display/train-editing-display'
 // import QueryPoints from './components/query-points/query-points'
 // import ResizeTitle from './components/resizeable-title/resizeable-title'
@@ -15,7 +16,7 @@ import VerticalGlassFinal from './components/vertical-glass-final/vertical-glass
 // import App from './App';
 // import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<VerticalGlassFinal />, document.getElementById('root'));
+ReactDOM.render(<AreaGlass />, document.getElementById('root'));
 // ReactDOM.render(<QueryPoints />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
