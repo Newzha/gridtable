@@ -4,9 +4,10 @@ import {
   Menu, Dropdown, Button, Icon, message, Input, Tag, Breadcrumb, Card, List,
 } from 'antd';
 import 'antd/dist/antd.css'
-import style from './area-glass.less'
+// import './area-glass.css'
+// import style from './area-glass.less'
 
-const TrackDetils = ({ data }) => (
+const TrackLists = ({ data }) => (
   <List
     style={{ margin: '16px 0'}}
     size="small"
@@ -19,6 +20,14 @@ const TrackDetils = ({ data }) => (
     )}
   />
 )
+const TrackCards = (data) => (
+  <Card
+    // title={item.title}
+  >
+    {data}
+  </Card>
+)
+
 export default class AreaGlass extends React.Component{
   constructor(props){
     super(props)
@@ -66,10 +75,10 @@ export default class AreaGlass extends React.Component{
     );
     // 箭头指向
     const ARROW = this.state.arrow? <Icon type="right" /> : <Icon type="left" />;
-    // const detailsData = [{
-    //   one: '80121(武汉->)  50 69.2  5071',
-    //   two: '吉安/20烟煤 荆州/20褐煤 C80/10',
-    // }];
+    const detailsData = [{
+      one: '80121(武汉->)  50 69.2  5071'},
+      {one: '吉安/20烟煤 荆州/20褐煤 C80/10'
+    }];
     const data = [
       {
         title: 'Title 1',
@@ -87,13 +96,6 @@ export default class AreaGlass extends React.Component{
     const data0 = [
       "浩勒报吉以北",
     ]
-    const data1 = [
-      "浩勒报吉以北"
-    ]
-    const data2 = [
-     '80121(武汉->)  50 69.2  5071',
-     '吉安/20烟煤 荆州/20褐煤 C80/10',
-    ];
     return (
       <div>
         <Card>
@@ -126,88 +128,80 @@ export default class AreaGlass extends React.Component{
           </div>
           <div className="content" style={{ marginTop: 60, marginLeft: 8 }}>
             {/*<div className="contentName">*/}
-              {/*<Tag color="#237804"*/}
-                   {/*onClose={this.preventDefault}>*/}
-                {/*浩勒报吉以北*/}
-              {/*</Tag>*/}
-              {/*{ARROW}*/}
-              {/*<Tag color="#36cfc9">浩勒报吉</Tag>*/}
-              {/*{ARROW}*/}
-              {/*<Tag color="#237804">浩勒报吉*靖边</Tag>*/}
-              {/*{ARROW}*/}
-              {/*<Tag color="#237804">靖神线</Tag>*/}
-              {/*{ARROW}*/}
-              {/*<Tag color="#36cfc9">靖边线</Tag>*/}
-              {/*/!*<Breadcrumb separator="-->">*/}
+            {/*<Tag color="#237804"*/}
+            {/*onClose={this.preventDefault}>*/}
+            {/*浩勒报吉以北*/}
+            {/*</Tag>*/}
+            {/*{ARROW}*/}
+            {/*<Tag color="#36cfc9">浩勒报吉</Tag>*/}
+            {/*{ARROW}*/}
+            {/*<Tag color="#237804">浩勒报吉*靖边</Tag>*/}
+            {/*{ARROW}*/}
+            {/*<Tag color="#237804">靖神线</Tag>*/}
+            {/*{ARROW}*/}
+            {/*<Tag color="#36cfc9">靖边线</Tag>*/}
+            {/*/!*<Breadcrumb separator="-->">*/}
             {/*<Breadcrumb.Item>*/}
-              {/*<Tag color="#237804">浩勒报吉以北</Tag>*/}
+            {/*<Tag color="#237804">浩勒报吉以北</Tag>*/}
             {/*</Breadcrumb.Item>*/}
             {/*<Breadcrumb.Item >*/}
-              {/*<Tag color="#36cfc9">浩勒报吉</Tag>*/}
+            {/*<Tag color="#36cfc9">浩勒报吉</Tag>*/}
             {/*</Breadcrumb.Item>*/}
             {/*<Breadcrumb.Item>*/}
-              {/*<Tag color="#237804">浩勒报吉*靖边</Tag>*/}
+            {/*<Tag color="#237804">浩勒报吉*靖边</Tag>*/}
             {/*</Breadcrumb.Item>*/}
             {/*<Breadcrumb.Item>*/}
-              {/*<Tag color="#237804">靖神线</Tag>*/}
+            {/*<Tag color="#237804">靖神线</Tag>*/}
             {/*</Breadcrumb.Item>*/}
             {/*<Breadcrumb.Item>*/}
-              {/*<Tag color="#36cfc9">靖边线</Tag>*/}
+            {/*<Tag color="#36cfc9">靖边线</Tag>*/}
             {/*</Breadcrumb.Item>*/}
-          {/*</Breadcrumb>*!/*/}
+            {/*</Breadcrumb>*!/*/}
             {/*</div>*/}
             {/*<div className="contentText">*/}
-              {/*<Tag color="#237804">浩勒报吉以北</Tag>*/}
-              {/*<Tag color="#36cfc9">浩勒报吉</Tag>*/}
-              {/*<Tag color="#237804">浩勒报吉*靖边</Tag>*/}
-              {/*<Tag color="#237804">靖神线</Tag>*/}
-              {/*<Tag color="#36cfc9">靖边线</Tag>*/}
+            {/*<Tag color="#237804">浩勒报吉以北</Tag>*/}
+            {/*<Tag color="#36cfc9">浩勒报吉</Tag>*/}
+            {/*<Tag color="#237804">浩勒报吉*靖边</Tag>*/}
+            {/*<Tag color="#237804">靖神线</Tag>*/}
+            {/*<Tag color="#36cfc9">靖边线</Tag>*/}
             {/*</div>*/}
             <List
+              style={{ background: '#f5f5f5', padding: '30px' }}
               // bordered
               grid={{ gutter: 16, column: 4 }}
               dataSource={data}
               renderItem={item => (
                 <List.Item
                 >
-                  <Card style={{ width: 320 }}>
-                    <div className="contentName">
-                      <TrackDetils data={ data0 } style= {{background: "#237804"}}/>
-                    </div>
-                    <div className="contentText">
-                      {
-                        data1.map(d => (
-                          <TrackDetils data={ data1 }/>
-                        ))
-                      }
-                    </div>
-                    <div className="contentDetails">
-                      {
-                        data2.map(d => (
-                          <TrackDetils data={ data2 }/>
-                        ))
-                      }
-                    </div>
-                  </Card>
-                  <Card style={{ width: 320 }}>
-                    <div className="contentName">
-                      <TrackDetils data={ data0 } style= {{background: "#237804"}}/>
-                    </div>
-                    <div className="contentText">
-                      {
-                        data1.map(d => (
-                          <TrackDetils data={ data1 }/>
-                        ))
-                      }
-                    </div>
-                    <div className="contentDetails">
-                      {
-                        data2.map(d => (
-                          <TrackDetils data={ data2 }/>
-                        ))
-                      }
-                    </div>
-                  </Card>
+                  {/*<Card style={{ width: 310 #237804  #ECECEC #f5f5f5}}>*/}
+                  {/*<div className="contentName" style= {{background: "#237804"}}>*/}
+                  {/*<TrackDetils data={ data0 } />*/}
+                  <Tag color="#237804">浩勒报吉以北</Tag>
+                  {/*</div>*/}
+                  {ARROW}
+                  <div className="contentText">
+                    {/*{*/}
+                    {/*data1.map(d => (*/}
+                    {/*<TrackDetils data={ data1 }/>*/}
+                    {/*))*/}
+                    {/*}*/}
+                    <Tag color="#237804">浩勒报吉以北</Tag>
+                  </div>
+                  <div className="contentDetails">
+                    {/*{*/}
+                    {/*data2.map(d => (*/}
+                    {/*<TrackLists data={ data2 }/>*/}
+                    {/*))*/}
+                    {/*}*/}
+                    {/*<TrackCards data={data2}/>*/}
+                    {/*detailsData.map(d => (*/}
+                       {/*<Card key={item.one}>{item.one}</Card>*/}
+                    {/*))*/}
+                    <Card >80121(武汉->)  50 69.2  5071</Card>
+                    <Card >吉安/20烟煤 荆州/20褐煤 C80/10</Card>
+                    {/*<Card >{detailsData.two}</Card>*/}
+                  </div>
+                  {/*</Card>*/}
                 </List.Item>
               )}
             />
@@ -216,5 +210,12 @@ export default class AreaGlass extends React.Component{
         </Card>
       </div>
     )
+    const data1 = [
+      "浩勒报吉以北"
+    ]
+    const data2 = [
+     '80121(武汉->)  50 69.2  5071',
+     '吉安/20烟煤 荆州/20褐煤 C80/10',
+    ];
   }
 }

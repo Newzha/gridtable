@@ -1,0 +1,39 @@
+/* Tag标签列*/
+/*.ant-list-item-content*/
+.ant-list-item-content-single
+{
+  position: relative;
+}
+/* Tag标签列的第一行*/
+/*.ant-tag*/
+.ant-tag-has-color
+{
+  width: 140px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+.ant-tag:first-child{
+  margin-bottom: 8px;
+}
+/* 第一行小箭头*/
+.anticon
+/*.anticon-right*/
+{
+  position: absolute;
+  /*left: 130px;*/
+  left: 160px;
+  top: 12px;
+}
+.ant-list-bordered{
+  border-radius: 0px;
+}
+
+.content{
+  margin-top: 60px;
+  margin-left: 8px;
+
+}
+.contentDetails {
+  margin: 16px 0
+}
